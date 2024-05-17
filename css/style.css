@@ -11,7 +11,8 @@
 .column{
     display: flex;
     flex-direction: column;
-    background-color: red;
+    /* background-color: var(--Anemo); */
+    align-items: center;
 }
 .row{
     display: flex;
@@ -22,7 +23,6 @@ section div{
     display: flex;
     margin: 10px;
     padding: 10px;
-    background-color: green;
 }
 ul{
     display:flex;
@@ -31,14 +31,17 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: yellow;
+    background-color: var(--Cryo);
 }
 ul li{
-    background-color: #9003fc;
+    background-color: var(--Hydro);
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
 }
 .complete{
     background-color: var(--Geo);
+}
+#topNav{
+    margin-bottom: 10px;
 }
