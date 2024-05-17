@@ -6,7 +6,6 @@ class Task {
     id=0;
     title='';
     desc='';
-    points=0;
     complete=false;
     indexRow=0;
     indexcolumn=0;

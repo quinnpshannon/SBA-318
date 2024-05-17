@@ -1,0 +1,44 @@
+:root {
+    --Hydro: #0384fc;
+    --Electro: #9003fc;
+    --Anemo: #03fcd3;
+    --Cryo: #03e3fc;
+    --Dendro: #62fc03;
+    --Pyro: #fc2c03;
+    --Geo: #fcb603;
+    font-family: "Roboto", sans-serif;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section div{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+ul li{
+    background-color: #9003fc;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.complete{
+    background-color: var(--Geo);
+}
